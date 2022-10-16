@@ -30,7 +30,6 @@ const MyNavbar = () => {
   };
 
   useEffect(() => {
-    console.log(location);
     // Navbar Fixed
     window.onscroll = function () {
       const header = document.querySelector("header");
