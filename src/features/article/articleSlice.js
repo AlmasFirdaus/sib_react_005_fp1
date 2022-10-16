@@ -11,19 +11,20 @@ const initialState = {
 export const fetchArticle = createAsyncThunk("article/fetchArticle", async (location) => {
   let datenow = new Date();
   let lastMonth = `${datenow.getFullYear()}-${datenow.getMonth()}-${datenow.getDate()}`;
+  const apiKey = "42519f8a87e749988e936b88d083e96b";
   let response = {};
   switch (location) {
     case "/" || "/indonesia":
-      response = await axios.get("https://newsapi.org/v2/top-headlines?country=id&page=1&pageSize=20&apiKey=42519f8a87e749988e936b88d083e96b");
+      response = await axios.get(`https://newsapi.org/v2/top-headlines?country=id&page=1&pageSize=20&apiKey=${apiKey}`);
       return response.data.articles;
     case "/programming":
-      response = await axios.get(`https://newsapi.org/v2/everything?q=programming&from=${lastMonth}&page=1&pageSize=20&apiKey=42519f8a87e749988e936b88d083e96b`);
+      response = await axios.get(`https://newsapi.org/v2/everything?q=programming&from=${lastMonth}&page=1&pageSize=20&apiKey=${apiKey}`);
       return response.data.articles;
     case "/covid":
-      response = await axios.get(`https://newsapi.org/v2/everything?q=covid-19&from=${lastMonth}&page=1&pageSize=20&apiKey=42519f8a87e749988e936b88d083e96b`);
+      response = await axios.get(`https://newsapi.org/v2/everything?q=covid-19&from=${lastMonth}&page=1&pageSize=20&apiKey=${apiKey}`);
       return response.data.articles;
     default:
-      response = await axios.get(`https://newsapi.org/v2/everything?q=${location.substring(1)}&from=${lastMonth}&page=1&pageSize=20&apiKey=42519f8a87e749988e936b88d083e96b`);
+      response = await axios.get(`https://newsapi.org/v2/everything?q=${location.substring(1)}&from=${lastMonth}&page=1&pageSize=20&apiKey=${apiKey}`);
       return response.data.articles;
   }
 });
