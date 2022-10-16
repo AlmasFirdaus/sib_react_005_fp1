@@ -6,8 +6,6 @@ import IsPending from "../component/IsPending";
 const ArticleSaved = () => {
   const newState = useSelector((state) => state.article);
   const articleSaveds = newState.entitiesSaved;
-
-  console.log("Saved", articleSaveds);
   return (
     <>
       <section id="home" className="pt-24 pb-32 min-h-screen ">
