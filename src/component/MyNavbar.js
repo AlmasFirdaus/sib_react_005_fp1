@@ -1,6 +1,4 @@
-import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import { fetchArticleSearch } from "../features/article/articleSlice";
 import { NavLink, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import logo1 from "../assets/icons/logo-1.png";
@@ -8,7 +6,6 @@ import logo1 from "../assets/icons/logo-1.png";
 const MyNavbar = () => {
   const [searchInput, setSearchInput] = useState("");
   const location = useLocation().pathname;
-  const dispatch = useDispatch();
   const navigate = useNavigate();
   const hamburger = document.querySelector("#hamburger");
   const navMenu = document.querySelector("#nav-menu");
@@ -19,9 +16,7 @@ const MyNavbar = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    dispatch(fetchArticleSearch({ searchInput }));
-    navigate(`/search/${searchInput}`);
+    navigate(`/${searchInput}`);
   };
 
   const topFunction = () => {
@@ -30,7 +25,6 @@ const MyNavbar = () => {
   };
 
   useEffect(() => {
-    console.log(location);
     // Navbar Fixed
     window.onscroll = function () {
       const header = document.querySelector("header");
@@ -68,7 +62,7 @@ const MyNavbar = () => {
 
   return (
     <header className="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 ">
-      <div className="container px-20">
+      <div className="container px-10 xl:px-20">
         <div className="flex items-center justify-between relative">
           <div className="px-4">
             {location === "/" ? (
@@ -130,7 +124,7 @@ const MyNavbar = () => {
                 </ul>
                 <form onSubmit={handleSubmit} className="mx-6 flex">
                   <input type="text" onChange={searchChange} className="text-base border border-primary border-opacity-50 rounded-lg mr-3 px-2 w-1/2" />
-                  <button className="py-1 px-3 w-1/2 md:w-1/3 bg-primary rounded-lg text-secondary transition duration-200 hover:opacity-80">Search</button>
+                  <button className="py-1 px-3 w-1/2 md:w-1/3 bg-primary rounded-lg shadow-sm text-white transition duration-200 hover:brightness-125">Search</button>
                 </form>
               </div>
             </nav>
