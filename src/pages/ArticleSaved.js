@@ -6,7 +6,10 @@ import IsPending from "../component/IsPending";
 const ArticleSaved = () => {
   const newState = useSelector((state) => state.article);
   const articleSaveds = newState.entitiesSaved;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3d7ed6251821bdf0b2a00cb12adf43ed472b7ac8
   return (
     <>
       <section id="home" className="pt-24 pb-32 min-h-screen ">
