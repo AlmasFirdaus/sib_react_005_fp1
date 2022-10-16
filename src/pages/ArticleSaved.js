@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
-import ArticleFulfilled from "../component/ArticleFulfilled";
-import ArticleTitle from "../component/ArticleTitle";
-import IsPending from "../component/IsPending";
+import ArticleFulfilled from "../component/organisme/ArticleFulfilled";
+import ArticleTitle from "../component/organisme/ArticleTitle";
+import IsPending from "../component/organisme/IsPending";
 
 const ArticleSaved = () => {
   const newState = useSelector((state) => state.article);

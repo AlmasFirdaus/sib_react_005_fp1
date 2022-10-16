@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import MyNavbar from "./component/MyNavbar";
+import MyNavbar from "./component/organisme/MyNavbar";
 import Home from "./pages/Home";
 import ArticleSaved from "./pages/ArticleSaved";
-import ToTop from "./component/ToTop";
-import Footer from "./component/Footer";
+import ToTop from "./component/organisme/ToTop";
+import Footer from "./component/organisme/Footer";
 import PagesArticles from "./component/template/PageArticles";
 
 function App() {

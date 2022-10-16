@@ -1,9 +1,9 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import heart from "../assets/icons/heart.png";
-import heartFill from "../assets/icons/heart-fill.png";
+import heart from "../../assets/icons/heart.png";
+import heartFill from "../../assets/icons/heart-fill.png";
 
-import { articleSaved, articleUnSaved } from "../features/article/articleSlice";
+import { articleSaved, articleUnSaved } from "../../features/article/articleSlice";
 
 const ArticleFulfilled = ({ articleFetch, index }) => {
   const saved = useSelector((state) => state.article.entitiesSaved);

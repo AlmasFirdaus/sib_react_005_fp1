@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { NavLink, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
-import logo1 from "../assets/icons/logo-1.png";
+import logo1 from "../../assets/icons/logo-1.png";
 
 const MyNavbar = () => {
   const [searchInput, setSearchInput] = useState("");

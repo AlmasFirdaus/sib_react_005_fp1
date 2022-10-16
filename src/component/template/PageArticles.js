@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import ArticleFulfilled from "../ArticleFulfilled";
-import ArticleTitle from "../ArticleTitle";
-import IsPending from "../IsPending";
+import ArticleFulfilled from "../organisme/ArticleFulfilled";
+import ArticleTitle from "../organisme/ArticleTitle";
+import IsPending from "../organisme/IsPending";
 import { useLocation } from "react-router-dom";
 import { fetchArticle } from "../../features/article/articleSlice";
 
