@@ -15,16 +15,16 @@ export const fetchArticle = createAsyncThunk("article/fetchArticle", async (loca
   let response = {};
   switch (location) {
     case "/" || "/indonesia":
-      response = await axios.get(`https://newsapi.org/v2/top-headlines?country=id&page=1&pageSize=20&apiKey=${apiKey}`);
+      response = await axios.get(`https://newsapi.org/v2/top-headlines?country=id&page=0&pageSize=8&apiKey=${apiKey}`);
       return response.data.articles;
     case "/programming":
-      response = await axios.get(`https://newsapi.org/v2/everything?q=programming&from=${lastMonth}&page=1&pageSize=20&apiKey=${apiKey}`);
+      response = await axios.get(`https://newsapi.org/v2/everything?q=programming&from=${lastMonth}&page=1&pageSize=8&apiKey=${apiKey}`);
       return response.data.articles;
     case "/covid":
-      response = await axios.get(`https://newsapi.org/v2/everything?q=covid-19&from=${lastMonth}&page=1&pageSize=20&apiKey=${apiKey}`);
+      response = await axios.get(`https://newsapi.org/v2/everything?q=covid-19&from=${lastMonth}&page=1&pageSize=8&apiKey=${apiKey}`);
       return response.data.articles;
     default:
-      response = await axios.get(`https://newsapi.org/v2/everything?q=${location.substring(1)}&from=${lastMonth}&page=1&pageSize=20&apiKey=${apiKey}`);
+      response = await axios.get(`https://newsapi.org/v2/everything?q=${location.substring(1)}&from=${lastMonth}&page=1&pageSize=8&apiKey=${apiKey}`);
       return response.data.articles;
   }
 });

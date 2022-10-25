@@ -11,7 +11,7 @@ const MyNavbar = () => {
   const navMenu = document.querySelector("#nav-menu");
 
   const searchChange = (e) => {
-    setSearchInput(e.target.value);
+    setSearchInput(e.target.value.replace(" ", "-"));
   };
 
   const handleSubmit = (e) => {

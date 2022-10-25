@@ -5,7 +5,7 @@ import heartFill from "../../assets/icons/heart-fill.png";
 
 import { articleSaved, articleUnSaved } from "../../features/article/articleSlice";
 
-const ArticleFulfilled = ({ articleFetch, index }) => {
+const ArticleFulfilled = ({ articleFetch }) => {
   const saved = useSelector((state) => state.article.entitiesSaved);
   const dispatch = useDispatch();
   const isSaved = saved.some((item) => item.title === articleFetch.title);
@@ -19,6 +19,7 @@ const ArticleFulfilled = ({ articleFetch, index }) => {
     dispatch(articleUnSaved({ filteredUnSave }));
   };
 
+  // component ini akan menampilkan card card sesuai dengan data yang dikirim kedalam component ini
   return (
     <div className="w-full flex justify-between">
       <div className="w-full bg-slate-100 rounded-xl shadow-lg overflow-hidden flex flex-col mb-10 relative">
