@@ -1,5 +1,5 @@
 <h1 align="center">RCTN-KS05</h1>
-<p align="center"><img src="https://cdn3.iconfinder.com/data/icons/basic-mobile-part-2/512/newspaper-512.png"></img></p>
+<p align="center"><img src="https://cdn3.iconfinder.com/data/icons/basic-mobile-part-2/512/newspaper-512.png" width="100" height="100" ></img></p>
 <h1 align="center">Final Project 1 - News Page</h1>
 <table style="height: 18px; width: 40.6406%; border-collapse: collapse; border-style: solid; border-color: #000000; background-color: #00ff00;" border="1">
 <tbody>
@@ -27,10 +27,10 @@
 <li>
 <h2><strong>Presentasi</strong></h2>
 <ol>
-<li><strong>Power Point&nbsp;<img src="https://th.bing.com/th/id/R.be3ac70294c05169eed6a40d955faae8?rik=hiPqCTAnr0d7IA&amp;riu=http%3a%2f%2fwww.hyperband.in%2fwp-content%2fuploads%2f2019%2f07%2ftick-inside-circle.png&amp;ehk=YgDnkcuRdC8BstqY0p45weYAh%2fcCA8lXI%2btCkYypjT0%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="" width="15" height="15" /></strong></li>
-<li><strong>Desain <img src="https://th.bing.com/th/id/R.be3ac70294c05169eed6a40d955faae8?rik=hiPqCTAnr0d7IA&amp;riu=http%3a%2f%2fwww.hyperband.in%2fwp-content%2fuploads%2f2019%2f07%2ftick-inside-circle.png&amp;ehk=YgDnkcuRdC8BstqY0p45weYAh%2fcCA8lXI%2btCkYypjT0%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="" width="15" height="15" /></strong></li>
-<li><strong>Progress Trello <img src="https://th.bing.com/th/id/R.be3ac70294c05169eed6a40d955faae8?rik=hiPqCTAnr0d7IA&amp;riu=http%3a%2f%2fwww.hyperband.in%2fwp-content%2fuploads%2f2019%2f07%2ftick-inside-circle.png&amp;ehk=YgDnkcuRdC8BstqY0p45weYAh%2fcCA8lXI%2btCkYypjT0%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="" width="15" height="15" /></strong></li>
-<li><strong>Koding <img src="https://th.bing.com/th/id/R.be3ac70294c05169eed6a40d955faae8?rik=hiPqCTAnr0d7IA&amp;riu=http%3a%2f%2fwww.hyperband.in%2fwp-content%2fuploads%2f2019%2f07%2ftick-inside-circle.png&amp;ehk=YgDnkcuRdC8BstqY0p45weYAh%2fcCA8lXI%2btCkYypjT0%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="" width="15" height="15" /></strong>
+<li><strong>Power Point&nbsp;<img src="https://cdn.pixabay.com/photo/2017/03/28/01/46/check-mark-2180770_1280.png" alt="" width="15" height="15" /></strong></li>
+<li><strong>Desain <img src="https://cdn.pixabay.com/photo/2017/03/28/01/46/check-mark-2180770_1280.png" alt="" width="15" height="15" /></strong></li>
+<li><strong>Progress Trello <img src="https://cdn.pixabay.com/photo/2017/03/28/01/46/check-mark-2180770_1280.png" alt="" width="15" height="15" /></strong></li>
+<li><strong>Koding <img src="https://cdn.pixabay.com/photo/2017/03/28/01/46/check-mark-2180770_1280.png" alt="" width="15" height="15" /></strong>
 <ol>
 <li>Setup Code</li>
 <li>Install Library</li>
@@ -40,8 +40,8 @@
 <li>Database</li>
 </ol>
 </li>
-<li><strong>Panduan <img src="https://th.bing.com/th/id/R.be3ac70294c05169eed6a40d955faae8?rik=hiPqCTAnr0d7IA&amp;riu=http%3a%2f%2fwww.hyperband.in%2fwp-content%2fuploads%2f2019%2f07%2ftick-inside-circle.png&amp;ehk=YgDnkcuRdC8BstqY0p45weYAh%2fcCA8lXI%2btCkYypjT0%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="" width="15" height="15" /></strong></li>
-<li><strong>Demo <img src="https://th.bing.com/th/id/R.be3ac70294c05169eed6a40d955faae8?rik=hiPqCTAnr0d7IA&amp;riu=http%3a%2f%2fwww.hyperband.in%2fwp-content%2fuploads%2f2019%2f07%2ftick-inside-circle.png&amp;ehk=YgDnkcuRdC8BstqY0p45weYAh%2fcCA8lXI%2btCkYypjT0%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="" width="15" height="15" /></strong>
+<li><strong>Panduan <img src="https://cdn.pixabay.com/photo/2017/03/28/01/46/check-mark-2180770_1280.png" alt="" width="15" height="15" /></strong></li>
+<li><strong>Demo <img src="https://cdn.pixabay.com/photo/2017/03/28/01/46/check-mark-2180770_1280.png" alt="" width="15" height="15" /></strong>
 <ol>
 <li><a href="https://docs.google.com/presentation/d/1yltnErTPmDcQrtYDA6Kkr4zqmiiYLryh/edit?usp=sharing&ouid=101891266544378704929&rtpof=true&sd=true">Link Trello</a></li>
 <li><a href="https://www.figma.com/file/K73tF4tMFftcmnrrGcN59m/Untitled?node-id=0%3A1" >Link Figma</a></li>
